@@ -1,0 +1,15 @@
+{
+  "image_name": "GZJ",
+  "image_frames": {
+    "stand": [
+      {"x": 7, "y": 100, "width": 38, "height": 78}
+    ],
+    "right_run": [
+      {"x": 56, "y": 101, "width": 50, "height": 78},
+      {"x": 133, "y": 101, "width": 36, "height": 77}
+    ],
+    "up": [
+      {"x": 182, "y": 101, "width": 60, "height": 66}
+    ]
+  }
+}

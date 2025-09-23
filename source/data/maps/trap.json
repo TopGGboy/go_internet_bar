@@ -1,0 +1,64 @@
+{
+  "level_001": {
+   "wall_trap": {
+      "down": {
+        "trap_xy": [93, 109, 125, 141, 157],
+        "trap_track": [433, 350, 2]
+      }
+    }
+  },
+
+  "level_002": {
+      "janci_trap": {
+            "1": {
+              "trap_xy": [789, 383, 2, "right"],
+              "trap_track": [535, 393]
+            }
+          }
+  },
+
+  "level_003": {
+      "gear_trap": {
+        "1": {
+          "trap_xy": [650, 180, 1],
+          "trap_track": [100, 100]
+        }
+      },
+     "Ground_thorn_trap": {
+       "1": {
+         "trap_xy": [55, 387, 1, "up"],
+         "trap_track": [100, 100]
+       }
+     }
+  },
+
+  "level_004": {
+    "janci_trap": {
+      "1": {
+        "trap_xy": [277, 242, 2, "left"],
+        "trap_track": [191, 299]
+      }
+    }
+  },
+
+  "level_005": {
+    "gear_trap": {
+      "1": {
+        "trap_xy": [340,295, 1],
+        "trap_track": [280,246]
+      }
+    },
+    "Ground_thorn_trap": {
+      "1": {
+        "trap_xy": [300, 336, 1, "left"],
+        "trap_track" : [100, 100]
+      }
+    },
+    "wall_trap": {
+      "down": {
+        "trap_xy": [99, 115, 131, 147],
+        "trap_track": [125, 345, 2]
+      }
+    }
+  }
+}
