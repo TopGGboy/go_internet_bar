@@ -2,7 +2,7 @@ import pygame
 from source import tools, setup
 
 
-# 齿轮陷阱
+# 陷阱
 class trap_gear(pygame.sprite.Sprite):
     def __init__(self, x, y, name, resize):
         pygame.sprite.Sprite.__init__(self)

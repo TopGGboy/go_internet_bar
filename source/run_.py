@@ -44,9 +44,10 @@ class Game:
 
                     self.keys = pygame.key.get_pressed()
 
-                    # 暂停
+                    # 暂停游戏
                     if event.key == pygame.K_ESCAPE and flage == False:
                         self.pause = not self.pause
+
                 elif event.type == pygame.KEYUP:
                     self.keys = pygame.key.get_pressed()  # 更新按键状态
                 elif event.type == pygame.MOUSEBUTTONDOWN:
@@ -71,7 +72,7 @@ class Game:
         """
         # 如果当前状态完全且不需要返回主菜单
         if self.state.finished and self.return_home_flage == False:
-            next_state = self.state.next  # 获取下一个状态s
+            next_state = self.state.next  # 获取下一个状态
 
             # 根据下一个状态创建对应的状态字典
             if next_state == 'load_screen':
@@ -120,3 +121,4 @@ class Game:
                   constans.LOAD_SCREEN_RECT['down_level'][1] < mouse_y < constans.LOAD_SCREEN_RECT['down_level'][3]):
                 constans.button_down = 2  # 设置按钮状态
                 self.pause = not self.pause  # 取消暂停
+
